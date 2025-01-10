@@ -1,0 +1,16 @@
+dag {
+bb="0,0,1,1"
+"Later Treatments (X2)" [pos="0.481,0.385"]
+"Later treatment protocols" [adjusted,pos="0.535,0.185"]
+"Patient characteristics at baseline (C1)" [pos="0.157,0.512"]
+"Patient characteristics at intermediate time (C2)" [pos="0.492,0.515"]
+"Randomized treatment (X)" [exposure,pos="0.175,0.268"]
+Outcome [outcome,pos="0.859,0.382"]
+"Later Treatments (X2)" -> Outcome
+"Later treatment protocols" -> "Later Treatments (X2)"
+"Patient characteristics at baseline (C1)" <-> "Patient characteristics at intermediate time (C2)"
+"Patient characteristics at intermediate time (C2)" -> "Later Treatments (X2)"
+"Patient characteristics at intermediate time (C2)" <-> Outcome
+"Randomized treatment (X)" -> "Patient characteristics at intermediate time (C2)"
+"Randomized treatment (X)" -> Outcome
+}

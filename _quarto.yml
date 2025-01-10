@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Causal Inference in Epidemiology"
+  author: "Douglas Ezra Morrison"
+  date: "1/9/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
