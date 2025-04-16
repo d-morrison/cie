@@ -7,3 +7,7 @@ To learn more about Quarto books visit <https://quarto.org/docs/books>.
 ```{r}
 1 + 1
 ```
+
+UC Davis courses:
+
+- [PSC 204B](https://catalog.ucdavis.edu/search/?q=PSC+204B) "Causal Modeling of Correlational Data"
