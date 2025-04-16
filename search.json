@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Causal Inference in Epidemiology",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\nUC Davis courses:\n\nEPI 205 “Principles of Epidemiology”\nEPI 206 “Epidemiologic Study Design”\nEPI/SPH 207 “Advanced Epidemiologic Methodology”\nEPI 225 “Advanced Topics in Epidemiology Methods”\nPOL 285 “Statistics of Causal Inference in Political Science”\nMGB/MGP/MGT 454A “Causal Inference and Statistical Experiments”\nPSC 204B “Causal Modeling of Correlational Data”\nPSC 205C “Structural Equation Modeling”",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\nUC Davis courses:\n\nEPI 205 “Principles of Epidemiology”\nEPI 206 “Epidemiologic Study Design”\nEPI/SPH 207 “Advanced Epidemiologic Methodology”\nEPI 225 “Advanced Topics in Epidemiology Methods”\nPOL 285 “Statistics of Causal Inference in Political Science”\nMGB/MGP/MGT 454A “Causal Inference and Statistical Experiments”\n\nsyllabus: https://webapps.aws.ucdavis.edu/public/documents/4861649/Syllabus\n\nPSC 204B “Causal Modeling of Correlational Data”\nPSC 205C “Structural Equation Modeling”\n\nUC Davis Datalab learning group:\n\nhttps://datalab.ucdavis.edu/causal-inference/\n\nReading list\n\n\nOther links:\n\nhttps://cameron.econ.ucdavis.edu/causal/\nhttps://datalab-icmat.github.io/causal_reading_group.html",
     "crumbs": [
       "Preface"
     ]
