@@ -10,5 +10,15 @@ To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
 UC Davis courses:
 
+- [EPI 205](https://catalog.ucdavis.edu/search/?q=EPI+205) "Principles of Epidemiology"
+
+- [EPI 206](https://catalog.ucdavis.edu/search/?q=EPI+206) "Epidemiologic Study Design"
+
+- [EPI/SPH 207](https://catalog.ucdavis.edu/search/?q=EPI+207) "Advanced Epidemiologic Methodology"
+
+- [EPI 225](https://catalog.ucdavis.edu/search/?q=EPI+225) "Advanced Topics in Epidemiology Methods"
+
+- [POL 285](https://catalog.ucdavis.edu/search/?q=POL+285) "Statistics of Causal Inference in Political Science"
+- [MGB/MGP/MGT 454A](https://catalog.ucdavis.edu/search/?q=MGB+454A) "Causal Inference and Statistical Experiments"
 - [PSC 204B](https://catalog.ucdavis.edu/search/?q=PSC+204B) "Causal Modeling of Correlational Data"
 - [PSC 205C](https://catalog.ucdavis.edu/search/?q=PSC+205C) "Structural Equation Modeling"
