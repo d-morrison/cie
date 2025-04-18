@@ -4,7 +4,47 @@
     "href": "index.html",
     "title": "Causal Inference in Epidemiology",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\nUC Davis courses:\n\nEPI 205 “Principles of Epidemiology”\nEPI 206 “Epidemiologic Study Design”\nEPI/SPH 207 “Advanced Epidemiologic Methodology”\nEPI 225 “Advanced Topics in Epidemiology Methods”\nPOL 285 “Statistics of Causal Inference in Political Science”\nMGB/MGP/MGT 454A “Causal Inference and Statistical Experiments”\n\nsyllabus: https://webapps.aws.ucdavis.edu/public/documents/4861649/Syllabus\n\nPSC 204B “Causal Modeling of Correlational Data”\nPSC 205C “Structural Equation Modeling”\n\nUC Davis Datalab learning group:\n\nhttps://datalab.ucdavis.edu/causal-inference/\n\nReading list\n\n\nOther links:\n\nhttps://cameron.econ.ucdavis.edu/causal/\nhttps://datalab-icmat.github.io/causal_reading_group.html",
+    "text": "Preface\nThis will be an online book about causal inference.\nHere are some other resources for learning causal inference:",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#uc-davis-courses",
+    "href": "index.html#uc-davis-courses",
+    "title": "Causal Inference in Epidemiology",
+    "section": "UC Davis courses",
+    "text": "UC Davis courses\n\nEPI 205 “Principles of Epidemiology”\nEPI 206 “Epidemiologic Study Design”\nEPI/SPH 207 “Advanced Epidemiologic Methodology”\nEPI 225 “Advanced Topics in Epidemiology Methods”\nPOL 285 “Statistics of Causal Inference in Political Science”\nMGB/MGP/MGT 454A “Causal Inference and Statistical Experiments”\n\nsyllabus: https://webapps.aws.ucdavis.edu/public/documents/4861649/Syllabus\n\nPSC 204B “Causal Modeling of Correlational Data”\nPSC 205C “Structural Equation Modeling”",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#online-videos",
+    "href": "index.html#online-videos",
+    "title": "Causal Inference in Epidemiology",
+    "section": "Online Videos",
+    "text": "Online Videos\n\n“Introduction to Causal Inference” (slides here)\nOnline Causal Inference Seminar series",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#uc-davis-datalab-learning-group",
+    "href": "index.html#uc-davis-datalab-learning-group",
+    "title": "Causal Inference in Epidemiology",
+    "section": "UC Davis Datalab learning group",
+    "text": "UC Davis Datalab learning group\n\nhttps://datalab.ucdavis.edu/causal-inference/\n\nReading list\n\n\nOther links:\n\nhttps://cameron.econ.ucdavis.edu/causal/\nhttps://datalab-icmat.github.io/causal_reading_group.html",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#books",
+    "href": "index.html#books",
+    "title": "Causal Inference in Epidemiology",
+    "section": "Books",
+    "text": "Books\n\nJudea Pearl (2016)\nHernán and Robins (2020)\n\n\n\n\n\nHernán, MA, and J Robins. 2020. “Causal Inference: What If. Boca Raton: Chapman & Hill/Crc.(2020).” Publisher’s Note Springer Nature Remains Neutral with Regard to Jurisdictional Claims in Published Maps and Institutional Affiliations. https://miguelhernan.org/whatifbook.\n\n\nJudea Pearl, Nicholas P. Jewell, Madelyn Glymour. 2016. Causal Inference in Statistics: A Primer. 1st ed. Chicester: Wiley.",
     "crumbs": [
       "Preface"
     ]
@@ -34,7 +74,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Hernán, MA, and J Robins. 2020. “Causal Inference: What If. Boca\nRaton: Chapman & Hill/Crc.(2020).” Publisher’s Note\nSpringer Nature Remains Neutral with Regard to Jurisdictional Claims in\nPublished Maps and Institutional Affiliations. https://miguelhernan.org/whatifbook.\n\n\nJudea Pearl, Nicholas P. Jewell, Madelyn Glymour. 2016. Causal\nInference in Statistics: A Primer. 1st ed. Chicester: Wiley.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "References"
     ]
