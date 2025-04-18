@@ -1,14 +1,10 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+This will be an online book about causal inference.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Here are some other resources for learning causal inference:
 
-```{r}
-1 + 1
-```
-
-UC Davis courses:
+## UC Davis courses
 
 - [EPI 205](https://catalog.ucdavis.edu/search/?q=EPI+205) "Principles of Epidemiology"
 
@@ -24,7 +20,14 @@ UC Davis courses:
 - [PSC 204B](https://catalog.ucdavis.edu/search/?q=PSC+204B) "Causal Modeling of Correlational Data"
 - [PSC 205C](https://catalog.ucdavis.edu/search/?q=PSC+205C) "Structural Equation Modeling"
 
-UC Davis Datalab learning group:
+## Online Videos
+
+- ["Introduction to Causal Inference"]( <https://ucdhs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43e9eb6f-3ed9-41ac-8ad9-ae22016572c8%20>) (slides [here](https://health.ucdavis.edu/media-resources/ctsc/documents/pdfs/causal-inference-intro-2022.pdf))
+
+- [Online Causal Inference Seminar series](https://www.youtube.com/channel/UCiiOj5GSES6uw21kfXnxj3A/videos)
+
+
+## UC Davis Datalab learning group
 
 - <https://datalab.ucdavis.edu/causal-inference/>
    - [Reading list](https://docs.google.com/document/d/1K0QZFSjQIYnOTahpRK7Q83eaiIIFjfa-clSbj_ifgco/edit?tab=t.0#heading=h.farbmh6n76gq)
@@ -35,3 +38,8 @@ Other links:
 
 - <https://datalab-icmat.github.io/causal_reading_group.html>
 
+## Books
+
+- @pearlprimer
+
+- @hernan2020causal
