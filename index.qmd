@@ -16,9 +16,16 @@ Here are some other resources for learning causal inference:
 
 - [POL 285](https://catalog.ucdavis.edu/search/?q=POL+285) "Statistics of Causal Inference in Political Science"
 - [MGB/MGP/MGT 454A](https://catalog.ucdavis.edu/search/?q=MGB+454A) "Causal Inference and Statistical Experiments"
-  - syllabus: <https://webapps.aws.ucdavis.edu/public/documents/4861649/Syllabus>
+  - syllabus: <https://webapps.aws.ucdavis.edu/public/documents/4861649/Syllabus>https://schedule.aws.ucdavis.edu/public/documents/5319910/Syllabus
 - [PSC 204B](https://catalog.ucdavis.edu/search/?q=PSC+204B) "Causal Modeling of Correlational Data"
 - [PSC 205C](https://catalog.ucdavis.edu/search/?q=PSC+205C) "Structural Equation Modeling"
+
+Course search options:
+
+- <https://schedule.aws.ucdavis.edu/courseScheduling>
+- <https://catalog.ucdavis.edu/course-search/>
+- <https://catalog.ucdavis.edu/courses-subject-code/>
+
 
 ## Online Videos
 
