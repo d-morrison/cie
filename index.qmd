@@ -45,6 +45,8 @@ Other links:
 
 - <https://datalab-icmat.github.io/causal_reading_group.html>
 
+- Lab exercises by [Ben Noble](https://benjaminnoble.org/): <https://github.com/bennoble/causal-inference-2022>
+
 ## Books
 
 - @pearlprimer
