@@ -1,0 +1,13 @@
+dag {
+bb="0,0,1,1"
+group [pos="0.164,0.435"]
+outcome [outcome,pos="0.820,0.456"]
+time [pos="0.647,0.128"]
+treatment [exposure,pos="0.546,0.317"]
+group <-> outcome
+group <-> time
+group <-> treatment
+outcome <-> time
+time <-> treatment
+treatment -> outcome
+}
