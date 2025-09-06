@@ -1,0 +1,15 @@
+{{< include macros.qmd >}}
+
+# Introduction to causal inference
+
+---
+
+{{< include _def-exch.qmd >}}
+
+---
+
+{{< include _def-cond-exch.qmd >}}
+
+---
+
+{{< include _thm-cond-exch.qmd >}}

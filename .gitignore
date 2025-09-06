@@ -8,3 +8,7 @@
 .quarto
 /.quarto/
 _book
+_freeze
+*.html
+*_files/
+*.pdf
