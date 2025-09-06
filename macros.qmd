@@ -385,3 +385,4 @@
 \def\signt{\text{sign}}
 \providecommand{\signf}[1]{\signt\cb{#1}}
 \def\reals{\mathbb{R}}
+\def\thmExch{\Expf{Y(x) | X = x'} = \Expf{Y(x) | X = x}}

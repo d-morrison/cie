@@ -8,6 +8,10 @@
 
 ---
 
+{{< include _thm-exch.qmd >}}
+
+---
+
 {{< include _def-cond-exch.qmd >}}
 
 ---

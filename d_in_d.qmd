@@ -4,10 +4,12 @@
 
 Many approaches to causal inference rely on 
 conditional exchangeability (@def-cond-exch)
-and its consequences (@thm-cond-exch).
+and its consequences (@thm-cond-exch):
+
+$$\thmExch$$
 
 Difference-in-differences makes a weaker assumption:
 
-$$\Expf{Y_t(0) - Y_{t-1}(0) | X = 1} = \Expf{Y_t(0) - Y_{t-1}(0) | X = 1}$$
+$$\Expf{Y_t(0) - Y_{t'}(0) | X = 1} = \Expf{Y_t(0) - Y_{t'}(0) | X = 0}$$
 
 
