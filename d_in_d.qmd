@@ -2,13 +2,13 @@
 
 # Difference in differences analyses
 
-Many approaches to causal inference rely on 
-conditional exchangeability (@def-cond-exch)
-and its consequences (@thm-cond-exch):
+Many approaches to causal inference assume
+a conditional exchangeability (@def-cond-exch)
+and exploit its consequences (@thm-cond-exch):
 
 $$\thmExch$$
 
-Difference-in-differences makes a weaker assumption:
+Difference-in-differences makes a weaker exchangeability assumption:
 
 $$\Expf{Y_t(0) - Y_{t'}(0) | X = 1} = \Expf{Y_t(0) - Y_{t'}(0) | X = 0}$$
 
