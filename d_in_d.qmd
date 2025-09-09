@@ -3,8 +3,8 @@
 # Difference in differences analyses
 
 Many approaches to causal inference assume
-a conditional exchangeability (@def-cond-exch)
-and exploit its consequences (@thm-cond-exch):
+exchangeability (@def-cond-exch)
+and exploit its consequence (@thm-exch):
 
 $$\thmExch$$
 
