@@ -9,3 +9,5 @@
 /.quarto/
 _book
 inst/refs
+*_files/
+*.html

@@ -1,0 +1,47 @@
+# Difference-in-differences models
+
+---
+
+Feng et al 2025:
+
+> DiD evaluates the impact of policies and programs using time-series data 
+by comparing outcome trajectories 
+between treatment and non-experimental comparison groups
+
+---
+
+DiD models can estimate treatment effects,
+even when no control groups are exactly comparable to the treatment groups.
+
+---
+
+:::{#exr-dnd-assumptions}
+
+How does DnD estimate treatment effect estimation without assuming
+conditional exchangeability?
+
+:::
+
+---
+
+:::{#sol-dnd-assumptions}
+DnD assumes that 
+average differences between treatment and comparison groups 
+would have been stable over time absent.
+intervention (a counterfactual “parallel trends assumption”).
+
+---
+
+:::{#exm-dnd-applications}
+
+Examples of DiD applications in health policy include analyz-ing the impact of:
+
+- Medicaid expansion [2, 3] and other insur-ance programs [4–7] on insurance coverage and health, 
+
+- same-sex marriage on mental health [8, 9]
+
+- closures of automobile assem-bly plants on opioid overdoses [10]
+
+- sweetened beverage taxes on soda consumption [11]
+
+- restrictions on sales of flavored tobacco products on youth smoking [12].
