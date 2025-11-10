@@ -35,8 +35,19 @@ As we all know, actions have consequences:
 
 ---
 
+{{< include definitions/_def-counterfactual-outcome.qmd >}}
+
+---
+
+{{< include definitions/_def-random-variable.qmd >}}
+
+---
 
 {{< include definitions/_def-cause.qmd >}}
+
+---
+
+{{< include definitions/_def-effect.qmd >}}
 
 ---
 

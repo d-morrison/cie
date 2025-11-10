@@ -1,11 +1,13 @@
 :::{#def-potential-outcome}
 
-#### outcome, consesquence
+#### potential outcome, consequence
 
-A **potential outcome** (also called a **consequence**)
-is the value of a random variable that would occur
-if a given action is taken.
-
+A **potential outcome** of action $a$ 
+(also called a **consequence** of $a$)
+is the value of a random variable $Y$
+that would occur if we were to take action $a$.
+The potential outcome of action $a$ on random variable $Y$ 
+is denoted $Y(a)$.
 :::
 
 
