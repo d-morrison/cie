@@ -1,0 +1,9 @@
+:::{#def-action}
+
+#### Action, intervention, exposure, policy, treatment
+
+An **action**
+(also called an **intervention, exposure, policy,** or **treatment**)
+is a choice that we consider making.
+
+:::

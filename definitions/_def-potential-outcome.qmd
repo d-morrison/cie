@@ -1,0 +1,11 @@
+:::{#def-potential-outcome}
+
+#### outcome, consesquence
+
+A **potential outcome** (also called a **consequence**)
+is the value of a random variable that would occur
+if a given action is taken.
+
+:::
+
+
