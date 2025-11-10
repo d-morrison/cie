@@ -1,0 +1,10 @@
+:::{#def-rv}
+
+#### Random variable
+
+A **random variable** is a variable that may have different values
+for different individuals and/or for different actions/exposures
+that an individual might experience.
+^[adapted from @hernan2020causal p3]
+:::
+

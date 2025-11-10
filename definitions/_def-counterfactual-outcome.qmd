@@ -1,0 +1,38 @@
+:::{#def-factual-outcome}
+
+#### Factual outcome, observed outcome
+
+A *factual outcome* (or *observed outcome*)
+is the potential outcome
+corresponding to an action that was actually taken.
+:::
+
+::: notes
+If we consider taking action $a$
+or an alternative $a'$,
+and we actually take action $A=a$,
+then $\po{Y}{a}$ is the factual outcome.
+:::
+
+---
+
+:::{#def-counterfactual}
+
+#### Counterfactual outcome
+
+A counterfactual outcome is a potential outcome
+corresponding to an action that was not actually taken.
+:::
+
+::: notes
+
+If we consider taking action $a$
+or an alternative $a'$,
+and we actually take action $A=a$,
+then $Y(a')$ is a counterfactual outcome.
+
+There might be more than one counterfactual outcome,
+depending on how many action options were considered,
+but there can only ever be one factual outcome per random variable.
+:::
+
