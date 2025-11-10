@@ -4,8 +4,7 @@
 
 The effect of action $a$ on outcome $Y$,
 relative to a given alternative action $a'$,
-is the difference in potential outcomes,
-
-$$Y(a) - Y(a')$$
+is the contrast in potential outcomes, 
+$Y(a)$ versus $Y(a')$.
 
 :::

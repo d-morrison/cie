@@ -51,6 +51,10 @@ As we all know, actions have consequences:
 
 ---
 
+{{< include definitions/_def-consistency.qmd >}}
+
+---
+
 {{< include _def-exch.qmd >}}
 
 ---
@@ -64,3 +68,4 @@ As we all know, actions have consequences:
 ---
 
 {{< include _thm-cond-exch.qmd >}}
+

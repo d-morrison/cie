@@ -7,7 +7,8 @@ A **potential outcome** of action $a$
 is the value of a random variable $Y$
 that would occur if we were to take action $a$.
 The potential outcome of action $a$ on random variable $Y$ 
-is denoted $Y(a)$.
+is often denoted $Y(a)$, $Y^a$, or $Y^{A=a}$.
+We will use notation $\po{Y}{a}$.
 :::
 
 
