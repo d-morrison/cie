@@ -5,12 +5,14 @@
 Action $a$ **causes** outcome $y$ (or is a cause of $y$)
 if:
 
-- outcome $y$ would occur if we were to take action $a$ **and**
+- outcome $y$ would occur if we were to take action $a$  
+**and**  
 - outcome $y$ would not occur if we did not take action $a$.
 
 In other words, if:
 
-- $Y(a) = y$$ and
+- $Y(a) = y$  
+**and**  
 - $\exists a' \neq a: Y(a') \neq y$
 
 :::
