@@ -17,3 +17,12 @@
 ---
 
 {{< include _thm-cond-exch.qmd >}}
+
+---
+
+@hernan2020causal: 
+
+> Unfortunately, the scientific
+literature is plagued by studies in which the causal question is not explicitly
+stated and the investigators’ unverifiable assumptions are not declared.
+
