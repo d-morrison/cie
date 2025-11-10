@@ -27,10 +27,6 @@ and leave the finer points to philosophers.
 
 ---
 
-::: notes
-As we all know, actions have consequences:
-:::
-
 {{< include definitions/_def-potential-outcome.qmd >}}
 
 ---

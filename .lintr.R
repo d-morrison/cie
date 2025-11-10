@@ -19,14 +19,7 @@ undesirable_functions <-
     "cli_alert_success" = "use cli::cli_inform()",
     "cli_alert_warning" = "use cli::cli_inform()",
 
-    library = paste(
-      "\nuse `::`, `usethis::use_import_from()`, or `withr::local_package()`",
-      "instead of modifying the global search path.",
-      "\nSee:\n",
-      "<https://r-pkgs.org/code.html#sec-code-r-landscape> and\n",
-      "<https://r-pkgs.org/testing-design.html#sec-testing-design-self-contained>",
-      "\nfor more details."
-    ),
+    library = NULL,
 
     structure = NULL,
     browser = NULL
