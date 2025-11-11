@@ -2,7 +2,7 @@
 
 ---
 
-Feng et al 2025:
+@feng2025dnd:
 
 > DiD evaluates the impact of policies and programs using time-series data 
 by comparing outcome trajectories 
