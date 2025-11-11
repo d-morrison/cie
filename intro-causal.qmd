@@ -1,0 +1,67 @@
+{{< include macros.qmd >}}
+
+# Introduction to causal inference
+
+---
+
+
+@hernan2020causal (page vii): 
+
+> Unfortunately, 
+the scientific literature is plagued by studies in which 
+the causal question is not explicitly stated 
+and the investigators’ unverifiable assumptions are not declared.
+This casual attitude towards causal inference 
+has led to a great deal of confusion.
+
+---
+
+Rigorously defining cause and effect is difficult.
+Fortunately, many humans have strong intuitions about these concepts.
+We will make cursory attempts at definitions for the basic terms,
+and leave the finer points to philosophers.
+
+---
+
+{{< include definitions/_def-action.qmd >}}
+
+---
+
+{{< include definitions/_def-potential-outcome.qmd >}}
+
+---
+
+{{< include definitions/_def-counterfactual-outcome.qmd >}}
+
+---
+
+{{< include definitions/_def-random-variable.qmd >}}
+
+---
+
+{{< include definitions/_def-cause.qmd >}}
+
+---
+
+{{< include definitions/_def-effect.qmd >}}
+
+---
+
+{{< include definitions/_def-consistency.qmd >}}
+
+---
+
+{{< include _def-exch.qmd >}}
+
+---
+
+{{< include _thm-exch.qmd >}}
+
+---
+
+{{< include _def-cond-exch.qmd >}}
+
+---
+
+{{< include _thm-cond-exch.qmd >}}
+

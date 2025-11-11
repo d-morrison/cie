@@ -11,3 +11,6 @@ _book
 inst/refs
 *_files/
 *.html
+_freeze
+*.html
+*.pdf

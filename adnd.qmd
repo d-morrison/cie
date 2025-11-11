@@ -1,0 +1,57 @@
+# Advanced Difference in Differences
+
+```{r}
+library(did)
+data(mpdta)
+```
+
+```{r}
+library(ggplot2)
+plot1 <- mpdta |> 
+  mutate(
+    first.treat = if_else(first.treat == 0, Inf, first.treat),
+    min_wage_increased = year >= first.treat,
+    
+  ) |> 
+  ggplot() +
+  aes(
+    x = year,
+    y = lemp,
+    group = countyreal,
+    col = min_wage_increased
+    
+  ) +
+  geom_point(aes(size = lpop), alpha = 0.3) +
+  geom_line(alpha = 0.3) +
+  facet_wrap(~first.treat) +
+  theme(legend.position = "bottom")
+  
+plot1
+
+```
+
+---
+
+```{r}
+out <- att_gt(
+  yname = "lemp",
+  gname = "first.treat",
+  idname = "countyreal",
+  tname = "year",
+  xformla = ~1,
+  data = mpdta,
+  est_method = "reg"
+)
+summary(out)
+```
+
+```{r}
+group_effects <- aggte(out, type = "group")
+summary(group_effects)
+```
+
+```{r}
+group_effects |> ggdid()
+```
+
+
