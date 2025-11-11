@@ -40,7 +40,7 @@ Examples of DiD applications in health policy include analyz-ing the impact of:
 
 - same-sex marriage on mental health [8, 9]
 
-- closures of automobile assem-bly plants on opioid overdoses [10]
+- closures of automobile assembly plants on opioid overdoses [10]
 
 - sweetened beverage taxes on soda consumption [11]
 
