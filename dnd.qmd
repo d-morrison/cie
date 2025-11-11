@@ -36,7 +36,7 @@ intervention (a counterfactual “parallel trends assumption”).
 
 Examples of DiD applications in health policy include analyz-ing the impact of:
 
-- Medicaid expansion [2, 3] and other insur-ance programs [4–7] on insurance coverage and health, 
+- Medicaid expansion [2, 3] and other insurance programs [4–7] on insurance coverage and health, 
 
 - same-sex marriage on mental health [8, 9]
 
