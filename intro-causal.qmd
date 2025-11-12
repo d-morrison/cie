@@ -2,8 +2,9 @@
 
 # Introduction to causal inference
 
----
+## Introduction
 
+---
 
 @hernan2020causal (page vii): 
 
@@ -14,12 +15,15 @@ and the investigators’ unverifiable assumptions are not declared.
 This casual attitude towards causal inference 
 has led to a great deal of confusion.
 
----
-
+::: notes
 Rigorously defining cause and effect is difficult.
 Fortunately, many humans have strong intuitions about these concepts.
 We will make cursory attempts at definitions for the basic terms,
 and leave the finer points to philosophers.
+:::
+
+
+## Individual causal effects
 
 ---
 
