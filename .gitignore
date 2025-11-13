@@ -14,3 +14,5 @@ inst/refs
 _freeze
 *.html
 *.pdf
+
+**/*.quarto_ipynb
