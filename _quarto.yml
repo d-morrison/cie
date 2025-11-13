@@ -6,4 +6,4 @@ editor:
   markdown:
     wrap: 72
 
-bibliography: references.bib
+bibliography: references/references.bib

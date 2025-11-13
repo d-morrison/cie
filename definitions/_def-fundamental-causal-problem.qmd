@@ -1,0 +1,10 @@
+:::{#def-fund-causal-problem}
+
+#### Fundamental problem of causal inference
+
+The *fundamental problem of causal inference* is
+that only one potential outcome (the factual outcome) can be observed per person
+(or per sampling unit, more generally) [@holland1986].
+The other, counterfactual outcomes, are all missing data,
+and thus, the causal effects are all missing data as well.
+:::

@@ -8,7 +8,11 @@
 .quarto
 /.quarto/
 _book
+inst/refs
+*_files/
+*.html
 _freeze
 *.html
-*_files/
 *.pdf
+
+**/*.quarto_ipynb

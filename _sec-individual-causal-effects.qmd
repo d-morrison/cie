@@ -1,0 +1,46 @@
+
+{{< include definitions/_def-action.qmd >}}
+
+---
+
+{{< include definitions/_def-potential-outcome.qmd >}}
+
+---
+
+{{< include definitions/_def-counterfactual-outcome.qmd >}}
+
+---
+
+{{< include definitions/_def-random-variable.qmd >}}
+
+---
+
+{{< include definitions/_def-cause.qmd >}}
+
+---
+
+{{< include definitions/_def-effect.qmd >}}
+
+---
+
+{{< include definitions/_def-consistency.qmd >}}
+
+---
+
+{{< include definitions/_def-exch.qmd >}}
+
+---
+
+{{< include _thm-exch.qmd >}}
+
+---
+
+{{< include definitions/_def-cond-exch.qmd >}}
+
+---
+
+{{< include _thm-cond-exch.qmd >}}
+
+---
+
+{{< include definitions/_def-fundamental-causal-problem.qmd >}}
