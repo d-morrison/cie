@@ -1,0 +1,122 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Causal Inference in Epidemiology",
+    "section": "",
+    "text": "Preface\nThis will be an online book about causal inference.\nHere are some other resources for learning causal inference:",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#uc-davis-courses",
+    "href": "index.html#uc-davis-courses",
+    "title": "Causal Inference in Epidemiology",
+    "section": "UC Davis courses",
+    "text": "UC Davis courses\n\nEPI 205 “Principles of Epidemiology”\nEPI 206 “Epidemiologic Study Design”\nEPI/SPH 207 “Advanced Epidemiologic Methodology”\nEPI 225 “Advanced Topics in Epidemiology Methods”\nPOL 285 “Statistics of Causal Inference in Political Science”\nMGB/MGP/MGT 454A “Causal Inference and Statistical Experiments”\n\nsyllabus: https://webapps.aws.ucdavis.edu/public/documents/4861649/Syllabushttps://schedule.aws.ucdavis.edu/public/documents/5319910/Syllabus\n\nPSC 204B “Causal Modeling of Correlational Data”\nPSC 205C “Structural Equation Modeling”\n\nCourse search options:\n\nhttps://schedule.aws.ucdavis.edu/courseScheduling\nhttps://catalog.ucdavis.edu/course-search/\nhttps://catalog.ucdavis.edu/courses-subject-code/",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#online-videos",
+    "href": "index.html#online-videos",
+    "title": "Causal Inference in Epidemiology",
+    "section": "Online Videos",
+    "text": "Online Videos\n\n“Introduction to Causal Inference” (slides here)\nOnline Causal Inference Seminar series",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#uc-davis-datalab-learning-group",
+    "href": "index.html#uc-davis-datalab-learning-group",
+    "title": "Causal Inference in Epidemiology",
+    "section": "UC Davis Datalab learning group",
+    "text": "UC Davis Datalab learning group\n\nhttps://datalab.ucdavis.edu/causal-inference/\n\nReading list\n\n\nOther links:\n\nhttps://cameron.econ.ucdavis.edu/causal/\nhttps://datalab-icmat.github.io/causal_reading_group.html\nLab exercises by Ben Noble: https://github.com/bennoble/causal-inference-2022",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#books",
+    "href": "index.html#books",
+    "title": "Causal Inference in Epidemiology",
+    "section": "Books",
+    "text": "Books\n\nJudea Pearl (2016)\nHernán and Robins (2020)\n\n\n\n\n\n\n\nHernán, MA, and J Robins. 2020. “Causal Inference: What If. Boca Raton: Chapman & Hill/Crc.(2020).” Publisher’s Note Springer Nature Remains Neutral with Regard to Jurisdictional Claims in Published Maps and Institutional Affiliations. https://miguelhernan.org/whatifbook.\n\n\nJudea Pearl, Nicholas P. Jewell, Madelyn Glymour. 2016. Causal Inference in Statistics: A Primer. 1st ed. Chicester: Wiley.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro-causal.html",
+    "href": "intro-causal.html",
+    "title": "1  Introduction to causal inference",
+    "section": "",
+    "text": "1.1 Introduction\nHernán and Robins (2020) (page vii):",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to causal inference</span>"
+    ]
+  },
+  {
+    "objectID": "intro-causal.html#introduction",
+    "href": "intro-causal.html#introduction",
+    "title": "1  Introduction to causal inference",
+    "section": "",
+    "text": "Unfortunately, the scientific literature is plagued by studies in which the causal question is not explicitly stated and the investigators’ unverifiable assumptions are not declared. This casual attitude towards causal inference has led to a great deal of confusion.\n\n\nRigorously defining cause and effect is difficult. Fortunately, many humans have strong intuitions about these concepts. We will make cursory attempts at definitions for the basic terms, and leave the finer points to philosophers.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to causal inference</span>"
+    ]
+  },
+  {
+    "objectID": "intro-causal.html#individual-causal-effects",
+    "href": "intro-causal.html#individual-causal-effects",
+    "title": "1  Introduction to causal inference",
+    "section": "1.2 Individual causal effects",
+    "text": "1.2 Individual causal effects\n\n\nDefinition 1.1 (Action, intervention, exposure, policy, treatment) An action (also called an intervention, exposure, policy, or treatment) is a choice that we consider making.\n\n\n\nDefinition 1.2 (Random variable) A random variable is a variable that may have different values for different individuals and/or for different actions/exposures that an individual might experience. 1\n\n\n\nDefinition 1.3 (potential outcome, consequence) A potential outcome of action \\(a\\) (also called a consequence of \\(a\\)) is the value of a random variable \\(Y\\) that would occur if we were to take action \\(a\\). The potential outcome of action \\(a\\) on random variable \\(Y\\) is often denoted \\(Y(a)\\), \\(Y^a\\), or \\(Y^{A=a}\\). We will use notation \\(Y(a)\\).\n\n\n\nDefinition 1.4 (Factual outcome, observed outcome) A factual outcome (or observed outcome) is the potential outcome corresponding to an action that was actually taken.\n\n\nIf we consider taking action \\(a\\) or an alternative \\(a'\\), and we actually take action \\(A=a\\), then \\(Y(a)\\) is the factual outcome.\n\n\n\nDefinition 1.5 (Counterfactual outcome) A counterfactual outcome is a potential outcome corresponding to an action that was not actually taken.\n\n\nIf we consider taking action \\(a\\) or an alternative \\(a'\\), and we actually take action \\(A=a\\), then \\(Y(a')\\) is a counterfactual outcome.\nThere might be more than one counterfactual outcome, depending on how many action options were considered, but there can only ever be one factual outcome per random variable.\n\n\n\nDefinition 1.6 (Cause) Action \\(a\\) causes outcome \\(y\\) (or is a cause of \\(y\\)) if:\n\noutcome \\(y\\) would occur if we were to take action \\(a\\)\nand\n\noutcome \\(y\\) would not occur if we did not take action \\(a\\).\n\nIn other words, if:\n\n\\(Y(a) = y\\)\nand\n\n\\(\\exists a' \\neq a: Y(a') \\neq y\\)\n\n\n\n\nDefinition 1.7 (effect) The effect of action \\(a\\) on outcome \\(Y\\), relative to a given alternative action \\(a'\\), is the contrast in potential outcomes, \\(Y(a)\\) versus \\(Y(a')\\).\n\n\n\nDefinition 1.8 (Consistency) Consistency is the assumption that if we observe an action \\(a\\), then the observed outcome \\(Y\\) is equal to the “factual potential outcome” corresponding to action \\(a\\); in other words, if \\(A=a\\), then \\(Y(a) = Y\\).\n\n\n\nDefinition 1.9 (Exchangeability) Subpopulations defined by exposure \\(X\\) are exchangeable with respect to a potential outcome \\(Y(x)\\) if the distribution of \\(Y(x)\\) does not depend on the observed exposure \\(X\\):\n\\[Y(x) \\perp\\!\\!\\!\\perp X\\]\n\n\n\nTheorem 1.1 If subpopulations defined by values of exposure \\(X\\) are exchangeable with respect to potential outcome \\(Y(x)\\), then the expected value of \\(Y(x)\\) does not depend on the observed value of \\(X\\):\n\\[\\text{E}{\\left[Y(x) | X = x'\\right]} = \\text{E}{\\left[Y(x) | X = x\\right]}\\]\n\n\n\nDefinition 1.10 (Conditional exchangeability) Subpopulations defined by exposure \\(X\\) are exchangeable with respect to a potential outcome \\(Y(x)\\) if the distribution of \\(Y(x)\\) does not depend on the observed exposure \\(X\\), conditional on covariate(s) \\(Z\\):\n\\[Y(x) \\perp\\!\\!\\!\\perp X | \\tilde{Z}\\]\n\n\n\nTheorem 1.2 If subpopulations defined by values of exposure \\(X\\) are conditionally exchangeable with respect to potential outcome \\(Y(x)\\) given covariate \\(\\tilde{Z}\\), then the expected value of \\(Y(x)\\) does not depend on the observed value of \\(X\\):\n\\[\\text{E}{\\left[Y(x) | X = x', \\tilde{Z}=\\tilde{z}\\right]} = \\text{E}{\\left[Y(x) | X = x, \\tilde{Z}=\\tilde{z}\\right]}\\]\n\n\n\nDefinition 1.11 (Fundamental problem of causal inference) The fundamental problem of causal inference is that only one potential outcome (the factual outcome) can be observed per person (or per sampling unit, more generally) (Holland 1986). The other, counterfactual outcomes, are all missing data, and thus, the causal effects are all missing data as well.\n\n\n\n\n\n\n\nHernán, MA, and J Robins. 2020. “Causal Inference: What If. Boca Raton: Chapman & Hill/Crc.(2020).” Publisher’s Note Springer Nature Remains Neutral with Regard to Jurisdictional Claims in Published Maps and Institutional Affiliations. https://miguelhernan.org/whatifbook.\n\n\nHolland, Paul W. 1986. “Statistics and Causal Inference.” Journal of the American Statistical Association 81 (396): 945–60. https://doi.org/10.1080/01621459.1986.10478354.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to causal inference</span>"
+    ]
+  },
+  {
+    "objectID": "intro-causal.html#footnotes",
+    "href": "intro-causal.html#footnotes",
+    "title": "1  Introduction to causal inference",
+    "section": "",
+    "text": "adapted from Hernán and Robins (2020) p3↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to causal inference</span>"
+    ]
+  },
+  {
+    "objectID": "d_in_d.html",
+    "href": "d_in_d.html",
+    "title": "2  Difference in differences analyses",
+    "section": "",
+    "text": "Many approaches to causal inference assume exchangeability (Definition 1.10) and exploit its consequence (Theorem 1.1):\n\\[\\text{E}{\\left[Y(x) | X = x'\\right]} = \\text{E}{\\left[Y(x) | X = x\\right]}\\]\nDifference-in-differences makes a weaker exchangeability assumption:\n\\[\\text{E}{\\left[Y_t(0) - Y_{t'}(0) | X = 1\\right]} = \\text{E}{\\left[Y_t(0) - Y_{t'}(0) | X = 0\\right]}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Difference in differences analyses</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "\n3  Summary\n",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\nShow R code1 + 1\n#&gt; [1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Hernán, MA, and J Robins. 2020. “Causal Inference: What If. Boca\nRaton: Chapman & Hill/Crc.(2020).” Publisher’s Note\nSpringer Nature Remains Neutral with Regard to Jurisdictional Claims in\nPublished Maps and Institutional Affiliations. https://miguelhernan.org/whatifbook.\n\n\nHolland, Paul W. 1986. “Statistics and Causal Inference.”\nJournal of the American Statistical Association 81 (396):\n945–60. https://doi.org/10.1080/01621459.1986.10478354.\n\n\nJudea Pearl, Nicholas P. Jewell, Madelyn Glymour. 2016. Causal\nInference in Statistics: A Primer. 1st ed. Chicester: Wiley.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
