@@ -1,5 +1,8 @@
-
 {{< include definitions/_def-action.qmd >}}
+
+---
+
+{{< include definitions/_def-random-variable.qmd >}}
 
 ---
 
@@ -8,10 +11,6 @@
 ---
 
 {{< include definitions/_def-counterfactual-outcome.qmd >}}
-
----
-
-{{< include definitions/_def-random-variable.qmd >}}
 
 ---
 
