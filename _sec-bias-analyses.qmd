@@ -17,3 +17,12 @@ which may be associated with both breast cancer screening
 If we knew the prevalence of smoking in screening-defined groups 
 and the association between smoking and breast cancer death, 
 then we could use published methods to correct the confounded effect estimates.
+
+> Unfortunately, these methods assume that the residual confounding 
+can be summarized by a single variable that happens to be 
+dichotomous, 
+time-fixed, and 
+unassociated with all measured variables that were adjusted for in the analysis 
+[@LashTimothyL.2009Aqba; @Schneeweiss2006].
+
+See also @LashTimothyL.2022Aqba for an updated reference.
