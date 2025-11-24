@@ -1,0 +1,11 @@
+@garcia2020screening, supplementary materials p16:
+
+> A sensitivity analysis for unmeasured confounding can only conclude that, 
+if there is much unmeasured confounding, 
+there will be much bias in the estimates and, conversely, 
+if there is little unmeasured confounding, 
+there will be little bias in the estimates. 
+But, if the magnitude of unmeasured confounding is unknown (as it often is), 
+then the magnitude of confounding bias is also unknown. 
+That is, 
+sensitivity analysis for unmeasured confounding is, by definition, uninformative.
