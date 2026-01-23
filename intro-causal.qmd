@@ -28,3 +28,22 @@ and leave the finer points to philosophers.
 ---
 
 {{< include _sec-individual-causal-effects.qmd >}}
+
+## Common biases in causal inference
+
+### Collider bias
+
+Collider bias is a type of selection bias that occurs when conditioning on a common effect (collider) of both an exposure and an outcome. This conditioning can create a spurious association between the exposure and outcome even when no true causal relationship exists in the general population.
+
+A collider is a variable that is caused by both the exposure and the outcome of interest. When we condition on this variable (through study design, selection criteria, or statistical adjustment), we can introduce bias. For example, if both Disease A and Disease B independently increase the likelihood of hospitalization, then analyzing only hospitalized patients can create a false association between these diseases.
+
+The Catalog of Bias provides comprehensive information about collider bias and many other biases that can affect research validity. The catalog includes:
+
+- Clear definitions and explanations
+- Real-world examples from health research
+- Directed acyclic graphs (DAGs) illustrating bias mechanisms
+- Guidance on study design and analysis to avoid or minimize bias
+
+For detailed information about collider bias, see: <https://catalogofbias.org/biases/collider-bias/>
+
+For a complete catalog of biases in health research, visit: <https://catalogofbias.org/>
