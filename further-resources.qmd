@@ -4,7 +4,7 @@
 
 ## The Catalog of Bias
 
-The [Catalog of Bias](https://catalogofbias.org/) is a collaborative project mapping all the biases that affect health evidence. The catalog provides:
+The [Catalog of Bias](https://catalogofbias.org/) [@catalogofbias] is a collaborative project mapping all the biases that affect health evidence. The catalog provides:
 
 - Clear definitions and explanations of various biases
 - Real-world examples from health research

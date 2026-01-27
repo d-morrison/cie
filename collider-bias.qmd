@@ -4,7 +4,7 @@
 
 ## Definition
 
-A **collider** is a variable that is caused by two or more other variables in a causal diagram (directed acyclic graph or DAG). The term "collider" comes from the visual representation where multiple arrows "collide" into the variable.
+A **collider** is a variable that is caused by two or more other variables in a causal diagram (directed acyclic graph or DAG) [@catalogofbias_collider]. The term "collider" comes from the visual representation where multiple arrows "collide" into the variable.
 
 The basic collider structure is an **inverted fork (V-structure)**:
 ```
@@ -13,22 +13,22 @@ Exposure → Collider ← Outcome
 
 More complex patterns exist, such as **M-structures** where multiple colliders are connected in chains, creating additional opportunities for bias when conditioning on any collider in the structure.
 
-Inappropriately controlling for a collider variable, by study design or statistical analysis, results in **collider bias**. 
+Inappropriately controlling for a collider variable, by study design or statistical analysis, results in **collider bias** [@catalogofbias_collider]. 
 
 Controlling for a collider can induce a distorted association between the exposure and outcome when in fact none exists. This bias predominantly occurs in observational studies. 
 
-Because collider bias can be induced by sampling (restricting the study to certain values of the collider), selection bias can sometimes be considered to be a form of collider bias.
+Because collider bias can be induced by sampling (restricting the study to certain values of the collider), selection bias can sometimes be considered to be a form of collider bias [@catalogofbias_collider].
 
 ## Classic example: Sackett's hospitalized patients
 
-A classic example of collider bias was provided by @sackett1979bias. He analyzed data from 257 hospitalized individuals and detected an association between locomotor disease and respiratory disease (odds ratio 4.06). However, when he repeated the analysis in a sample of 2,783 individuals from the general population, he found no association (odds ratio 1.06). The original analysis of hospitalized individuals was biased because both diseases caused individuals to be hospitalized. By looking only within the stratum of hospitalized individuals, Sackett had observed a distorted association. In this example, locomotor disease and respiratory disease are independent causes of hospitalization—the collider. Controlling for the collider by study design (selection bias) induced a distorted association between the two diseases.
+A classic example of collider bias was provided by @sackett1979bias and discussed by @catalogofbias_collider. He analyzed data from 257 hospitalized individuals and detected an association between locomotor disease and respiratory disease (odds ratio 4.06). However, when he repeated the analysis in a sample of 2,783 individuals from the general population, he found no association (odds ratio 1.06). The original analysis of hospitalized individuals was biased because both diseases caused individuals to be hospitalized. By looking only within the stratum of hospitalized individuals, Sackett had observed a distorted association. In this example, locomotor disease and respiratory disease are independent causes of hospitalization—the collider. Controlling for the collider by study design (selection bias) induced a distorted association between the two diseases.
 
 ## Modern example: The obesity paradox
 
-A more recent example can be seen in the "obesity paradox"—an apparent protective effect of obesity on mortality in individuals with chronic conditions such as cardiovascular disease (CVD). In fact, obesity increases mortality rates in the general population. The collider bias occurs when investigators condition on CVD (by design or analysis), resulting in a distorted association. Consequently, in a sample that includes only patients with CVD, obesity falsely appears to protect against mortality, whereas in the wider population, obesity increases the risk of early death. @banack2014obesity showed using the third US National Health and Nutrition Examination Survey (NHANES III) that the unbiased mortality risk ratio for the entire cohort was 1.24 [95% CI = 1.11, 1.39] (harmful), but the biased stratum-specific mortality risk ratio in patients with CVD was 0.79 [95% CI = 0.68, 0.91] (protective).
+A more recent example can be seen in the "obesity paradox"—an apparent protective effect of obesity on mortality in individuals with chronic conditions such as cardiovascular disease (CVD) [@catalogofbias_collider]. In fact, obesity increases mortality rates in the general population. The collider bias occurs when investigators condition on CVD (by design or analysis), resulting in a distorted association. Consequently, in a sample that includes only patients with CVD, obesity falsely appears to protect against mortality, whereas in the wider population, obesity increases the risk of early death. @banack2014obesity showed using the third US National Health and Nutrition Examination Survey (NHANES III) that the unbiased mortality risk ratio for the entire cohort was 1.24 [95% CI = 1.11, 1.39] (harmful), but the biased stratum-specific mortality risk ratio in patients with CVD was 0.79 [95% CI = 0.68, 0.91] (protective).
 
 ## Prevention
 
-Collider bias can be prevented by carefully applying appropriate inclusion criteria—making sure that the exposure and outcome of interest do not drive inclusion or selective retention in a study. Causal diagrams (directed acyclic graphs or DAGs) can help identify colliders that should be left uncontrolled and confounders that should be controlled.
+Collider bias can be prevented by carefully applying appropriate inclusion criteria—making sure that the exposure and outcome of interest do not drive inclusion or selective retention in a study [@catalogofbias_collider]. Causal diagrams (directed acyclic graphs or DAGs) can help identify colliders that should be left uncontrolled and confounders that should be controlled.
 
-For more detailed information about collider bias, including causal diagrams and additional examples, see: <https://catalogofbias.org/biases/collider-bias/>
+For more detailed information about collider bias, including causal diagrams and additional examples, see @catalogofbias_collider.
