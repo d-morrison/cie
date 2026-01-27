@@ -22,6 +22,7 @@ book:
     - index.qmd
     - intro-causal.qmd
     - collider-bias.qmd
+    - bias-analyses.qmd
     - d_in_d.qmd
     - further-resources.qmd
     - summary.qmd
