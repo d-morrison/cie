@@ -1,0 +1,14 @@
+{{< include macros.qmd >}}
+
+# Further resources
+
+## The Catalog of Bias
+
+The [Catalog of Bias](https://catalogofbias.org/) [@catalogofbias] is a collaborative project mapping all the biases that affect health evidence. The catalog provides:
+
+- Clear definitions and explanations of various biases
+- Real-world examples from health research
+- Directed acyclic graphs (DAGs) illustrating bias mechanisms
+- Guidance on study design and analysis to prevent or minimize bias
+
+The catalog is an invaluable resource for researchers, clinicians, policymakers, journalists, and the public who seek to better understand threats to research validity.
