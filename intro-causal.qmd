@@ -47,6 +47,7 @@ The Catalog of Bias provides comprehensive information about collider bias and m
 For detailed information about collider bias, see: <https://catalogofbias.org/biases/collider-bias/>
 
 For a complete catalog of biases in health research, visit: <https://catalogofbias.org/>
+
 ---
 
 {{< include _sec-bias-analyses.qmd >}}
