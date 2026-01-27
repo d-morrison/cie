@@ -13,11 +13,13 @@ There are two common DAG structures involving colliders:
    Exposure → Collider ← Outcome
    ```
 
-2. **M-structure**: When two variables both cause a collider and at least one of them is on a causal path:
+2. **M-structure**: When there is a path between two variables that goes through two colliders. For example:
    ```
-   A → Collider ← B
-   A → D ← B
+   A → C ← B
+   ↓       ↓
+   D → E ← F
    ```
+   The "M" shape forms when conditioning on C or on both C and E can induce associations between variables that would otherwise be independent.
 
 Inappropriately controlling for a collider variable, by study design or statistical analysis, results in **collider bias**. 
 
