@@ -35,7 +35,7 @@ and leave the finer points to philosophers.
 
 When an exposure and an outcome independently cause a third variable, that variable is termed a "collider". Inappropriately controlling for a collider variable, by study design or statistical analysis, results in collider bias. 
 
-Controlling for a collider can induce a distorted association between the exposure and outcome, when in fact none exists. This bias predominantly occurs in observational studies. 
+Controlling for a collider can induce a distorted association between the exposure and outcome when in fact none exists. This bias predominantly occurs in observational studies. 
 
 Because collider bias can be induced by sampling, selection bias can sometimes be considered to be a form of collider bias.
 
