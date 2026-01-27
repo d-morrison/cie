@@ -6,20 +6,12 @@
 
 A **collider** is a variable that is caused by two or more other variables in a causal diagram (directed acyclic graph or DAG). The term "collider" comes from the visual representation where multiple arrows "collide" into the variable.
 
-There are two common DAG structures involving colliders:
+The basic collider structure is an **inverted fork (V-structure)**:
+```
+Exposure → Collider ← Outcome
+```
 
-1. **Inverted fork (V-structure)**: When an exposure and an outcome independently cause a third variable:
-   ```
-   Exposure → Collider ← Outcome
-   ```
-
-2. **M-structure**: When multiple colliders are connected in a pattern that resembles an M shape:
-   ```
-   A → C ← B
-   ↓       ↓
-   D → E ← F
-   ```
-   In this structure, conditioning on colliders (such as C or E) opens backdoor paths and creates spurious associations between variables that are marginally independent (like A and B, or D and F).
+More complex patterns exist, such as **M-structures** where multiple colliders are connected in chains, creating additional opportunities for bias when conditioning on any collider in the structure.
 
 Inappropriately controlling for a collider variable, by study design or statistical analysis, results in **collider bias**. 
 
