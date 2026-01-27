@@ -1,0 +1,23 @@
+{{< include macros.qmd >}}
+
+# Collider bias
+
+When an exposure and an outcome independently cause a third variable, that variable is termed a "collider". Inappropriately controlling for a collider variable, by study design or statistical analysis, results in collider bias. 
+
+Controlling for a collider can induce a distorted association between the exposure and outcome when in fact none exists. This bias predominantly occurs in observational studies. 
+
+Because collider bias can be induced by sampling, selection bias can sometimes be considered to be a form of collider bias.
+
+## Classic example: Sackett's hospitalized patients
+
+A classic example of collider bias was provided by @sackett1979bias. He analyzed data from 257 hospitalized individuals and detected an association between locomotor disease and respiratory disease (odds ratio 4.06). However, when he repeated the analysis in a sample of 2,783 individuals from the general population, he found no association (odds ratio 1.06). The original analysis of hospitalized individuals was biased because both diseases caused individuals to be hospitalized. By looking only within the stratum of hospitalized individuals, Sackett had observed a distorted association. In this example, locomotor disease and respiratory disease are independent causes of hospitalization—the collider. Controlling for the collider by study design (selection bias) induced a distorted association between the two diseases.
+
+## Modern example: The obesity paradox
+
+A more recent example can be seen in the "obesity paradox"—an apparent protective effect of obesity on mortality in individuals with chronic conditions such as cardiovascular disease (CVD). In fact, obesity increases mortality rates in the general population. The collider bias occurs when investigators condition on CVD (by design or analysis), resulting in a distorted association. Consequently, in a sample that includes only patients with CVD, obesity falsely appears to protect against mortality, whereas in the wider population, obesity increases the risk of early death. @banack2014obesity showed using the third US National Health and Nutrition Examination Survey (NHANES III) that the unbiased mortality risk ratio for the entire cohort was 1.24 [95% CI = 1.11, 1.39] (harmful), but the biased stratum-specific mortality risk ratio in patients with CVD was 0.79 [95% CI = 0.68, 0.91] (protective).
+
+## Prevention
+
+Collider bias can be prevented by carefully applying appropriate inclusion criteria—making sure that the exposure and outcome of interest do not drive inclusion or selective retention in a study. Causal diagrams (directed acyclic graphs or DAGs) can help identify colliders that should be left uncontrolled and confounders that should be controlled.
+
+For more detailed information about collider bias, including causal diagrams and additional examples, see: <https://catalogofbias.org/biases/collider-bias/>
