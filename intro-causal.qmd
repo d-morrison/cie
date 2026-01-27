@@ -28,3 +28,7 @@ and leave the finer points to philosophers.
 ---
 
 {{< include _sec-individual-causal-effects.qmd >}}
+
+---
+
+{{< include _sec-bias-analyses.qmd >}}

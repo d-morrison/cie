@@ -2,11 +2,28 @@
 
 # Collider bias
 
-When an exposure and an outcome independently cause a third variable, that variable is termed a "collider". Inappropriately controlling for a collider variable, by study design or statistical analysis, results in collider bias. 
+## Definition
+
+A **collider** is a variable that is caused by two or more other variables in a causal diagram (directed acyclic graph or DAG). The term "collider" comes from the visual representation where multiple arrows "collide" into the variable.
+
+There are two common DAG structures involving colliders:
+
+1. **Inverted fork (V-structure)**: When an exposure and an outcome independently cause a third variable:
+   ```
+   Exposure → Collider ← Outcome
+   ```
+
+2. **M-structure**: When two variables both cause a collider and at least one of them is on a causal path:
+   ```
+   A → Collider ← B
+   A → D ← B
+   ```
+
+Inappropriately controlling for a collider variable, by study design or statistical analysis, results in **collider bias**. 
 
 Controlling for a collider can induce a distorted association between the exposure and outcome when in fact none exists. This bias predominantly occurs in observational studies. 
 
-Because collider bias can be induced by sampling, selection bias can sometimes be considered to be a form of collider bias.
+Because collider bias can be induced by sampling (restricting the study to certain values of the collider), selection bias can sometimes be considered to be a form of collider bias.
 
 ## Classic example: Sackett's hospitalized patients
 
