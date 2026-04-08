@@ -12,4 +12,57 @@ Difference-in-differences makes a weaker exchangeability assumption:
 
 $$\Expf{Y_t(0) - Y_{t'}(0) | X = 1} = \Expf{Y_t(0) - Y_{t'}(0) | X = 0}$$
 
+## Change in Changes
+
+The **Change in Changes (CiC)** model [@atheyimbens2006] is a DiD-type method that estimates the **Quantile Treatment Effect on the Treated (QTET)** — that is, treatment effects across the full distribution of outcomes, not just the mean [@bcallaway_cic].
+
+CiC requires two periods of data (a pre-treatment and a post-treatment period). The data can be either repeated cross-sections or panel data [@bcallaway_cic].
+
+### Assumption
+
+Rather than the standard parallel trends assumption (that average outcomes would have followed parallel paths absent treatment), CiC assumes that the *distribution* of untreated potential outcomes evolves over time in the same way for both treated and control groups [@atheyimbens2006].
+
+### Covariate adjustment
+
+CiC can condition on covariates by first fitting a linear model for outcomes conditional on group–time indicators and covariates, then residualizing (removing predicted values), and finally applying the CiC estimator to these quasi-residuals [@atheyimbens2006; @bcallaway_cic].
+
+### R implementation
+
+The `CiC()` function in the `qte` R package [@bcallaway_cic] implements this estimator. Key arguments are (note: `formla` and `xformla` are the actual argument names in the package):
+
+| Argument  | Description |
+|-----------|-------------|
+| `formla`  | `y ~ d` where `y` is the outcome and `d` is a binary treatment indicator |
+| `xformla` | Optional one-sided formula for additional covariates (e.g., `~ age + education`) |
+| `t`       | Post-treatment time period |
+| `tmin1`   | Pre-treatment time period |
+| `tname`   | Name of the column containing the time variable |
+| `data`    | Data frame containing all variables |
+| `panel`   | `TRUE` if the dataset is panel data |
+| `probs`   | Vector of quantile levels at which to estimate the QTET |
+| `iters`   | Number of bootstrap iterations for standard errors |
+
+The function returns a `QTE` object with QTET estimates and (optionally) bootstrap confidence intervals at each quantile in `probs`.
+
+### Example
+
+The following example from @bcallaway_cic estimates the QTET for the National Supported Work Demonstration job-training program using the `lalonde.psid.panel` dataset, conditioning on several pre-treatment characteristics:
+
+```r
+library(qte)
+data(lalonde)
+
+c1 <- CiC(
+  re ~ treat,
+  t = 1978, tmin1 = 1975, tname = "year",
+  xformla = ~ age + I(age^2) + education + black + hispanic + married + nodegree,
+  data = lalonde.psid.panel, idname = "id",
+  se = FALSE, probs = seq(0.05, 0.95, 0.05)
+)
+
+summary(c1)
+```
+
+The resulting QTET estimates suggest that the treatment had no measurable effect on the lower quantiles of the earnings distribution but large positive effects at higher quantiles, with an estimated average treatment effect of roughly $4,600 [@bcallaway_cic].
+
 
