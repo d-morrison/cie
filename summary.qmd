@@ -1,7 +1,11 @@
-# Summary
+# Summary of Gooley et al. (1999)
 
-In summary, this book has no content whatsoever.
+Gooley and colleagues explain how to estimate event probabilities when **competing risks** are present—situations where one event prevents the event of interest from occurring [@gooley1999competing]. Their central point is that the common shortcut of using **1 − Kaplan–Meier (1 − KM)** overestimates risk in this setting because it treats competing events as ordinary censoring [@gooley1999competing].
 
-```{r}
-1 + 1
-```
+The paper shows that the **cumulative incidence (CI)** estimator is the correct quantity for estimating the absolute probability of a specific failure type in the presence of competing risks [@gooley1999competing]. CI properly accounts for both the hazard of the event of interest and the hazard of competing events, while 1 − KM does not [@gooley1999competing].
+
+Using simulated data and two clinical examples, the authors demonstrate that divergence between 1 − KM and CI grows as competing events become more frequent; CI aligns with observed proportions when follow-up is complete, while 1 − KM can be substantially inflated [@gooley1999competing].
+
+## Practical takeaway
+
+If your goal is to estimate the real-world probability of a specific endpoint over time and competing events exist, report **cumulative incidence** (and clearly define competing events), not 1 − KM [@gooley1999competing].
