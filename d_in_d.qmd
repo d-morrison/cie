@@ -48,7 +48,7 @@ The function returns a `QTE` object with QTET estimates and (optionally) bootstr
 
 The following example from @bcallaway_cic estimates the QTET for the National Supported Work Demonstration job-training program using the `lalonde.psid.panel` dataset, conditioning on several pre-treatment characteristics:
 
-```r
+```{r}
 library(qte)
 data(lalonde)
 
